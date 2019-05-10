@@ -9,10 +9,11 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Добро пожаловать!</title>
+        <title>Наша библеотека</title>
     </head>
     <body>
-        <h1>Книги</h1>
-        <a href="showAddBook">Добавить книгу</a>
+        <h1>Добро пожаловать!</h1>
+        <a href="showAddBook">Добавить книгу</a><br>
+        <a href="listBooks">Список книг</a>
     </body>
 </html>

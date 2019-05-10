@@ -16,13 +16,13 @@
         <form action="createBook" method="POST">
             Название книги:<br>
             <input type="text" name="name"><br>
-            Автор книги:
+            Автор книги:<br>
             <input type="text" name="author"><br>
-            Год издания книги:
+            Год издания книги:<br>
             <input type="text" name="publishedYear"><br>
-            ISBN книги:
+            ISBN книги:<br>
             <input type="text" name="isbn"><br>
-            Количество книг:
+            Количество книг:<br>
             <input type="text" name="quantity"><br>
             <input type="submit" value="Создать"><br>
         </form>
