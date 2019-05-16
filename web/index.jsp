@@ -14,6 +14,10 @@
     <body>
         <h1>Добро пожаловать!</h1>
         <a href="showAddBook">Добавить книгу</a><br>
-        <a href="listBooks">Список книг</a>
+        <a href="listBooks">Список книг</a><br>
+        <a href="showAddReader">Добавить читателя</a><br>
+        <a href="listReaders">Список читателей</a><br>
+        <a href="showAddHistory">Выдать книгу</a><br>
+        <a href="listHistory">История выдачи</a>
     </body>
 </html>
