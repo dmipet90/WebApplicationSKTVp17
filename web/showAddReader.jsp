@@ -1,7 +1,7 @@
 <%-- 
     Document   : showAddBook
-    Created on : May 9, 2019, 6:20:32 PM
-    Author     : User
+    Created on : May 9, 2019, 2:49:58 PM
+    Author     : user
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -12,15 +12,17 @@
         <title>Добавление читателя</title>
     </head>
     <body>
-        <h1>Регистрация</h1>
+        <h1>Новый чититель</h1>
+      
         <form action="createReader" method="POST">
-            Имя:<br>
-            <input type="text" name="firstName"><br>
-            Фамилия:<br>
-            <input type="text" name="secondName"><br>
+            Имя читателя:<br>
+            <input type="text" name="name"><br>
+            Фамилия читателя:<br>
+            <input type="text" name="surname"><br>
             Телефон:<br>
             <input type="text" name="phone"><br>
-            <input type="submit" value="Создать"><br>
-        </form>
+            
+            <input type="submit" value="Добавить">
+        </form>        
     </body>
 </html>

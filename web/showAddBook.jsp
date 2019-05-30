@@ -1,7 +1,7 @@
 <%-- 
     Document   : showAddBook
-    Created on : May 9, 2019, 6:20:32 PM
-    Author     : User
+    Created on : May 9, 2019, 2:49:58 PM
+    Author     : user
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -13,6 +13,7 @@
     </head>
     <body>
         <h1>Создать книгу</h1>
+      
         <form action="createBook" method="POST">
             Название книги:<br>
             <input type="text" name="name"><br>
@@ -24,7 +25,7 @@
             <input type="text" name="isbn"><br>
             Количество книг:<br>
             <input type="text" name="quantity"><br>
-            <input type="submit" value="Создать"><br>
-        </form>
+            <input type="submit" value="Создать">
+        </form>        
     </body>
 </html>
